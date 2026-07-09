@@ -244,7 +244,7 @@
 
 .customers-image{
     position: relative;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .customers-image img{
@@ -291,4 +291,204 @@
 .jobs-box span{
     font-size: 15px;
     font-weight: 600;
+}
+
+@media (min-width:1024px){
+
+.about-hero-wrapper{
+    min-height: 600px;
+}
+
+.about-hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 40px;
+}
+
+.about-hero-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-hero span{
+    font-size:18px;
+}
+
+.about-hero h1{
+    font-size: 55px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.about-hero p{
+    font-size: 22px;
+    max-width: 650px;
+    margin: 25px auto 0;
+    line-height: 1.6;
+}
+
+.about-page-intro{
+    padding: 100px 20px;
+}
+
+.about-intro-container{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.about-page-image{
+    margin-top: 0;
+}
+
+.about-page-content{
+    margin-top: 0;
+}
+
+.about-page-content h2{
+    font-size: 50px;
+    line-height: 1.1;
+    margin: 10px 0 10px;
+}
+
+.about-page-content p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-page-content img{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+}
+
+.values-section{
+    padding: 100px 20px;
+}
+
+.values-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.values-header{
+    max-width: 800px;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+
+.values-container h2{
+    font-size: 54px;
+    margin: 20px 0 20px;
+    line-height: 1.1;
+}
+
+.values-container p{
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.values-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.value-card{
+    padding: 30px 35px;
+}
+
+.trust-section{
+    padding: 140px 20px;
+}
+
+.trust-overlay{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-tag{
+    font-size: 18px;
+}
+
+.trust-overlay h2{
+    font-size: 58px;
+    margin: 20px 0 20px;
+    line-height: 1.1;
+}
+
+.trust-overlay p{
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.trust-badges{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+.trust-badges img{
+    width: 220px;
+    height: auto;
+}
+
+.customers-section{
+    padding:120px 20px;
+}
+
+.customers-container{
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.customers-content{
+    text-align:left;
+}
+
+.customers-content h2{
+    font-size:60px;
+    line-height:1.1;
+    margin:20px 0 30px;
+}
+
+.customers-content p{
+    margin:0;
+    font-size:20px;
+    line-height:1.8;
+}
+
+.customers-image{
+    position:relative;
+    margin-top:0;
+}
+
+.customers-image img{
+    width:100%;
+    border-radius:0;
+}
+
+.reviews-box{
+    top:-30px;
+    right:-30px;
+    width:230px;
+    padding:20px;
+}
+
+.jobs-box{
+    bottom:-30px;
+    left:-30px;
+    width:230px;
+    padding:20px;
+}
 }
